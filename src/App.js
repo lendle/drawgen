@@ -11,9 +11,9 @@ const App = () => {
     <div>
       <DrawNavbar/>
       <Switch>
-        <Route path="/" exact component={Root}/>
-        <Route path="/:event/:category/:seed" component={Draw}/>
-        <Route path="/:event/:category" component={RandomSeedRedirect}/>
+        <Route path="/drawgen/" exact component={Root}/>
+        <Route path="/drawgen/:event/:category/:seed" component={Draw}/>
+        <Route path="/drawgen/:event/:category" component={RandomSeedRedirect}/>
       </Switch>
     </div>
   )

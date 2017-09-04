@@ -25,20 +25,20 @@ class NavButtons extends React.Component {
           <Navbar.Form>
             <FormGroup>
               <ButtonGroup size = "sm" navItem>
-                <LinkContainer to ={`/vfs/${category}/${seed}`} exact><Button>VFS</Button></LinkContainer>
-                <LinkContainer to ={`/mfs/${category}/${seed}`} exact><Button>MFS</Button></LinkContainer>
+                <LinkContainer to ={`/drawgen/vfs/${category}/${seed}`} exact><Button>VFS</Button></LinkContainer>
+                <LinkContainer to ={`/drawgen/mfs/${category}/${seed}`} exact><Button>MFS</Button></LinkContainer>
               </ButtonGroup>
             </FormGroup>{' '}
             <FormGroup>
               <ButtonGroup size = "sm" navItem>
-                  <LinkContainer to ={`/${event}/open/${seed}`} exact><Button>Open</Button></LinkContainer>
-                  <LinkContainer to ={`/${event}/advanced/${seed}`} exact><Button>Advanced</Button></LinkContainer>
+                  <LinkContainer to ={`/drawgen/${event}/open/${seed}`} exact><Button>Open</Button></LinkContainer>
+                  <LinkContainer to ={`/drawgen/${event}/advanced/${seed}`} exact><Button>Advanced</Button></LinkContainer>
                 </ButtonGroup>
             </FormGroup>
 
       {' '}
             <FormGroup>
-              <LinkContainer to ={`/${event}/${category}/${nextSeed(seed)}`}>
+              <LinkContainer to ={`/drawgen/${event}/${category}/${nextSeed(seed)}`}>
               <Button><Glyphicon glyph="refresh"/></Button>
               </LinkContainer>
             </FormGroup>

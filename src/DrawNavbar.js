@@ -15,7 +15,7 @@ class DrawNavbar extends React.Component {
           <Navbar.Toggle/>
         </Navbar.Header>
         <Navbar.Collapse>
-          <Route path="/:event/:category/:seed" component = {NavButtons}/>
+          <Route path="/drawgen/:event/:category/:seed" component = {NavButtons}/>
         </Navbar.Collapse>
       </Navbar>
 

@@ -12,10 +12,10 @@ class Main extends React.Component {
       <div>
         <Switch>
           <Route
-            path="/:event/:category/:seed"
+            path="/drawgen/:event/:category/:seed"
             component={Draw}/>
           <Route
-            path="/:event/:category"
+            path="/drawgen/:event/:category"
             component={RandomSeedRedirect}/>
           <Redirect to="/"/>
         </Switch>
