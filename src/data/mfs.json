@@ -1,0 +1,152 @@
+[
+  {
+    "id": "A",
+    "value": 1,
+    "name": "Head-down Star"
+  },
+  {
+    "id": "B",
+    "value": 1,
+    "name": "Double Spock"
+  },
+  {
+    "id": "C",
+    "value": 1,
+    "name": "Vertical Compressed"
+  },
+  {
+    "id": "D",
+    "value": 1,
+    "name": "Sole to Sole"
+  },
+  {
+    "id": "E",
+    "value": 1,
+    "name": "Vice Versa"
+  },
+  {
+    "id": "F",
+    "value": 1,
+    "name": "Totem"
+  },
+  {
+    "id": "G",
+    "value": 1,
+    "name": "T-Square (BB sidebody)"
+  },
+  {
+    "id": "H",
+    "value": 1,
+    "name": "Tetris"
+  },
+  {
+    "id": "I",
+    "value": 1,
+    "name": "Cat"
+  },
+  {
+    "id": "J",
+    "value": 1,
+    "name": "Upright Star"
+  },
+  {
+    "id": "K",
+    "value": 1,
+    "name": "Belly Star"
+  },
+  {
+    "id": "L",
+    "value": 1,
+    "name": "Waffle Maker"
+  },
+  {
+    "id": "M",
+    "value": 1,
+    "name": "Stair step"
+  },
+  {
+    "id": "N",
+    "value": 1,
+    "name": "Half Rebel"
+  },
+  {
+    "id": "O",
+    "value": 1,
+    "name": "Versa Vice (mixed half rebel)"
+  },
+  {
+    "id": "P",
+    "value": 1,
+    "name": "Upright Half Rebel"
+  },
+  {
+    "id": "Q",
+    "value": 1,
+    "name": "Mixed Cat"
+  },
+  {
+    "id": "R",
+    "value": 1,
+    "name": "Belgian Waffle (back compressed)"
+  },
+  {
+    "id": "1",
+    "value": 2,
+    "name": "Double 69"
+  },
+  {
+    "id": "2",
+    "value": 2,
+    "name": "Auger 360 Auger"
+  },
+  {
+    "id": "3",
+    "value": 2,
+    "name": "Oil Drill"
+  },
+  {
+    "id": "4",
+    "value": 2,
+    "name": "Cogwheel (Mixed flips)"
+  },
+  {
+    "id": "5",
+    "value": 2,
+    "name": "Upright Auger 360 Upright Auger"
+  },
+  {
+    "id": "6",
+    "value": 2,
+    "name": "Gears (HU flips)"
+  },
+  {
+    "id": "7",
+    "value": 2,
+    "name": "Periscope 360 Periscope (belly 360)"
+  },
+  {
+    "id": "8",
+    "value": 2,
+    "name": "Bison Barrel Roll Bison"
+  },
+  {
+    "id": "9",
+    "value": 2,
+    "name": "Turnstile"
+  },
+  {
+    "id": "10",
+    "value": 2,
+    "name": "Flat Stairstep 360 Flat Stairstep"
+  },
+  {
+    "id": "11",
+    "value": 2,
+    "name": "Mova 360 Mova (carvey spinny)"
+  },
+  {
+    "id": "12",
+    "value": 2,
+    "name": "Mixed Star Layouts Mixed Star"
+  }
+]
