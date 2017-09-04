@@ -74,6 +74,7 @@ class Draw extends React.Component {
 
     return (
       <Grid>
+        <div>event: {event} cat: {category}</div>
         <div onClick={this.handleClick}>
           {draw2List(draw, this.state.showNames)}
         </div>
