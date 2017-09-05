@@ -2,191 +2,229 @@
   {
     "id": "A",
     "value": 1,
-    "name": "Cross"
+    "name": "Cross",
+    "advanced": true
   },
   {
     "id": "B",
     "value": 1,
-    "name": "Gulley"
+    "name": "Gulley",
+    "advanced": true
   },
   {
     "id": "C",
     "value": 1,
-    "name": "Shoeshine"
+    "name": "Shoeshine",
+    "advanced": true
   },
   {
     "id": "D",
     "value": 1,
-    "name": "Sitline"
+    "name": "Sitline",
+    "advanced": false
   },
   {
     "id": "E",
     "value": 1,
-    "name": "Wave"
+    "name": "Wave",
+    "advanced": true
   },
   {
     "id": "F",
     "value": 1,
-    "name": "Double Joker"
+    "name": "Double Joker",
+    "advanced": false
   },
   {
     "id": "G",
     "value": 1,
-    "name": "Mixed Star"
+    "name": "Mixed Star",
+    "advanced": false
   },
   {
     "id": "H",
     "value": 1,
-    "name": "T-Bird"
+    "name": "T-Bird",
+    "advanced": false
   },
   {
     "id": "J",
     "value": 1,
-    "name": "Flock"
+    "name": "Flock",
+    "advanced": true
   },
   {
     "id": "K",
     "value": 1,
-    "name": "Anchor"
+    "name": "Anchor",
+    "advanced": true
   },
   {
     "id": "L",
     "value": 1,
-    "name": "Rebel"
+    "name": "Rebel",
+    "advanced": true
   },
   {
     "id": "M",
     "value": 1,
-    "name": "Dentri"
+    "name": "Dentri",
+    "advanced": false
   },
   {
     "id": "N",
     "value": 1,
-    "name": "Double Rebel"
+    "name": "Double Rebel",
+    "advanced": true
   },
   {
     "id": "O",
     "value": 1,
-    "name": "Trident"
+    "name": "Trident",
+    "advanced": false
   },
   {
     "id": "P",
     "value": 1,
-    "name": "Cortex"
+    "name": "Cortex",
+    "advanced": false
   },
   {
     "id": "Q",
     "value": 1,
-    "name": "Mixed Wave"
+    "name": "Mixed Wave",
+    "advanced": false
   },
   {
     "id": "1",
     "value": 2,
-    "name": "Arrowhead"
+    "name": "Arrowhead",
+    "advanced": true
   },
   {
     "id": "2",
     "value": 2,
-    "name": "Claw"
+    "name": "Claw",
+    "advanced": true
   },
   {
     "id": "3",
     "value": 2,
-    "name": "HD Accordion"
+    "name": "HD Accordion",
+    "advanced": true
   },
   {
     "id": "4",
     "value": 2,
-    "name": "Chain Gang"
+    "name": "Chain Gang",
+    "advanced": true
   },
   {
     "id": "5",
     "value": 2,
-    "name": "Mixed Accordion"
+    "name": "Mixed Accordion",
+    "advanced": false
   },
   {
     "id": "6",
     "value": 2,
-    "name": "Snow Flake"
+    "name": "Snow Flake",
+    "advanced": false
   },
   {
     "id": "7",
     "value": 2,
-    "name": "Flower"
+    "name": "Flower",
+    "advanced": true
   },
   {
     "id": "8",
     "value": 2,
-    "name": "Buddy Buddy"
+    "name": "Buddy Buddy",
+    "advanced": true
   },
   {
     "id": "9",
     "value": 2,
-    "name": "Shorty"
+    "name": "Shorty",
+    "advanced": true
   },
   {
     "id": "10",
     "value": 2,
-    "name": "Boule Bill"
+    "name": "Boule Bill",
+    "advanced": false
   },
   {
     "id": "11",
     "value": 2,
-    "name": "Fun Buddies"
+    "name": "Fun Buddies",
+    "advanced": true
   },
   {
     "id": "12",
     "value": 2,
-    "name": "Pinweel"
+    "name": "Pinweel",
+    "advanced": true
   },
   {
     "id": "13",
     "value": 2,
-    "name": "HD Star"
+    "name": "HD Star",
+    "advanced": true
   },
   {
     "id": "14",
     "value": 2,
-    "name": "Satellite"
+    "name": "Satellite",
+    "advanced": true
   },
   {
     "id": "15",
     "value": 2,
-    "name": "Bipole"
+    "name": "Bipole",
+    "advanced": false
   },
   {
     "id": "16",
     "value": 2,
-    "name": "Chimmy"
+    "name": "Chimmy",
+    "advanced": true
   },
   {
     "id": "17",
     "value": 2,
-    "name": "Zin Zan"
+    "name": "Zin Zan",
+    "advanced": false
   },
   {
     "id": "18",
     "value": 2,
-    "name": "Ding Ding"
+    "name": "Ding Ding",
+    "advanced": false
   },
   {
     "id": "19",
     "value": 2,
-    "name": "Angry Pelican"
+    "name": "Angry Pelican",
+    "advanced": false
   },
   {
     "id": "20",
     "value": 2,
-    "name": "Box"
+    "name": "Box",
+    "advanced": false
   },
   {
     "id": "21",
     "value": 2,
-    "name": "Core Buddies"
+    "name": "Core Buddies",
+    "advanced": true
   },
   {
     "id": "22",
     "value": 2,
-    "name": "Top Spot"
+    "name": "Top Spot",
+    "advanced": true
   }
 ]

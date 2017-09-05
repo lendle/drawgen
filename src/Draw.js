@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ListGroupItem, ListGroup, Panel, Grid } from 'react-bootstrap'
+import { ListGroupItem, ListGroup, Grid } from 'react-bootstrap'
 
 import vfsPoints from './data/vfs.json'
 import mfsPoints from './data/mfs.json'
@@ -15,7 +15,7 @@ const draw2List = (draw, includeNames) => {
           { includeNames &&
             <ListGroup>
               {round.map(({name}) => {
-                return <ListGroupItem><small>{name}</small></ListGroupItem>
+                return <ListGroupItem style={{padding: '2px 10px'}}><small>{name}</small></ListGroupItem>
               })}
             </ListGroup>
 
@@ -27,25 +27,27 @@ const draw2List = (draw, includeNames) => {
 
 )}
 
-const drawConfig = {
+const drawConfigs = {
   "mfs" : {
     "open" : {
       rounds : 8,
-      minPoints : 4
+      minPointsPerRound : 4,
+      points: mfsPoints
     }
   },
   "vfs" : {
     "open" : {
       rounds: 10,
-      minPoints: 5
+      minPointsPerRound: 5,
+      points: vfsPoints
     },
     "advanced" : {
       rounds: 10,
-      minPoints: 3
+      minPointsPerRound: 3,
+      points: vfsPoints.filter(({advanced}) => advanced)
     }
   }
 }
-
 
 class Draw extends React.Component {
   constructor(props) {
@@ -66,18 +68,15 @@ class Draw extends React.Component {
   render () {
     const { event, category, seed } = this.props.match.params
 
-    const isOpenDraw = category === "open"
+    const config = drawConfigs[event][category]
 
-    const draw = (event === "mfs") ?
-    genDraw(mfsPoints, seed, 8, 4) :
-    genDraw(vfsPoints, seed, 10, 5)
+    if (config == null) return <div></div>
+
+    const draw = genDraw(config['points'], seed, config['rounds'], config['minPointsPerRound'])
 
     return (
-      <Grid>
-        <div>event: {event} cat: {category}</div>
-        <div onClick={this.handleClick}>
-          {draw2List(draw, this.state.showNames)}
-        </div>
+      <Grid onClick={this.handleClick}>
+        {draw2List(draw, this.state.showNames)}
       </Grid>
     )
   }
