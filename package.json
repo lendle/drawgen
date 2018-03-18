@@ -2,7 +2,7 @@
   "name": "drawgen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://slendle.github.io/drawgen",
+  "homepage": "https://lendle.github.io/drawgen",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "json-loader": "^0.5.4",
